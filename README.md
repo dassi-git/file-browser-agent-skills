@@ -32,16 +32,40 @@ node node_modules/electron/install.js
 
 # 3. Run in development mode
 npm run dev
-```
 
 > ⚠️ Don't skip step 2. In this setup `npm i` doesn't always fully download the
 > Electron binary, and running `node node_modules/electron/install.js` completes it.
-
-Other scripts:
-
-| Command | Description |
-|---------|-------------|
 | `npm run dev` | Run in development mode (HMR) |
+
+## 📚 Complete Documentation
+
+This project includes comprehensive documentation for all levels:
+
+### Getting Started
+- **[QUICK_START.md](QUICK_START.md)** - 5-minute setup guide
+- **[FAQ.md](FAQ.md)** - 40+ common questions answered
+- **[README_IMPLEMENTATION.md](README_IMPLEMENTATION.md)** - Detailed walkthrough
+
+### Technical Guides
+- **[API.md](API.md)** - Complete API reference
+- **[ARCHITECTURE.md](../../../ARCHITECTURE.md)** - System design
+- **[DEBUGGING.md](DEBUGGING.md)** - Debugging troubleshooting guide
+- **[PERFORMANCE.md](PERFORMANCE.md)** - Performance optimization
+
+### Contributing & Community
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community standards
+- **[SUPPORT.md](SUPPORT.md)** - Support and sponsorship
+- **[SECURITY.md](SECURITY.md)** - Security policy
+
+### Reference
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history
+- **[MAINTENANCE.md](MAINTENANCE.md)** - For maintainers
+- **[LICENSE](LICENSE)** - MIT license
+- **[examples/ADVANCED_EXAMPLES.md](examples/ADVANCED_EXAMPLES.md)** - Professional patterns
+
+**Total**: 16+ documentation files covering everything from beginner to expert level.
+
 | `npm run build` | Build the app (`electron-vite build`) |
 | `npm start` | Run the build (preview) |
 | `npm run typecheck` | Type-check both main and renderer |
